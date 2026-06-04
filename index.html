@@ -1,12 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SANZA</title>
-    <LINk:css></LINk:css>
+    <title>SANZA STORE | Moda & Accesorios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header class="header">
+        <div class="logo">SANZA STORE</div>
+        <nav class="nav">
+            <a href="#">Inicio</a>
+            <a href="#">Ropa</a>
+            <a href="#">Accesorios</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Define Tu Estilo</h1>
+            <p>Descubre las últimas tendencias en ropa y accesorios diseñados para ti.</p>
+            <a href="#productos" class="btn-hero">Ver Colección</a>
+        </div>
+    </section>
+
+    <main class="container" id="productos">
+        <h2 class="section-title">Nuestros Destacados</h2>
+        
+        <div class="products-grid">
+            
+            <div class="product-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=60" alt="Prenda de vestir">
+                        </div>
+                        <div class="product-info">
+                            <h3>Vestido de Temporada</h3>
+                            <p class="price">$120.000</p>
+                            <button class="btn-detail">Ver Detalle</button>
+                        </div>
+                    </div>
+                    <div class="card-back" style="background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=60');">
+                        <div class="back-content">
+                            <h3>Detalles del Producto</h3>
+                            <p class="description">Vestido ligero de algodón ideal para los días de verano. Textura suave, fresco y con un ajuste perfecto a la cintura.</p>
+                            <p class="sizes">Tallas disponibles: S, M, L</p>
+                            <button class="btn-buy">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=500&auto=format&fit=crop&q=60" alt="Abrigo premium">
+                        </div>
+                        <div class="product-info">
+                            <h3>Abrigo Premium</h3>
+                            <p class="price">$250.000</p>
+                            <button class="btn-detail">Ver Detalle</button>
+                        </div>
+                    </div>
+                    <div class="card-back" style="background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=500&auto=format&fit=crop&q=60');">
+                        <div class="back-content">
+                            <h3>Detalles del Producto</h3>
+                            <p class="description">Abrigo de lana premium diseñado para climas fríos. Bolsillos internos funcionales y corte estilizado formal.</p>
+                            <p class="sizes">Tallas disponibles: M, L, XL</p>
+                            <button class="btn-buy">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1596783074918-c84cb06531ca?w=500&auto=format&fit=crop&q=60" alt="Bolso de cuero">
+                        </div>
+                        <div class="product-info">
+                            <h3>Bolso de Cuero</h3>
+                            <p class="price">$180.000</p>
+                            <button class="btn-detail">Ver Detalle</button>
+                        </div>
+                    </div>
+                    <div class="card-back" style="background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1596783074918-c84cb06531ca?w=500&auto=format&fit=crop&q=60');">
+                        <div class="back-content">
+                            <h3>Detalles del Producto</h3>
+                            <p class="description">Bolso 100% de cuero auténtico con acabados hechos a mano. Compartimentos amplios y correa ajustable de alta resistencia.</p>
+                            <p class="sizes">Color: Café Oscuro</p>
+                            <button class="btn-buy">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&auto=format&fit=crop&q=60" alt="Accesorio de Joyería">
+                        </div>
+                        <div class="product-info">
+                            <h3>Collar Dorado Elegance</h3>
+                            <p class="price">$65.000</p>
+                            <button class="btn-detail">Ver Detalle</button>
+                        </div>
+                    </div>
+                    <div class="card-back" style="background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&auto=format&fit=crop&q=60');">
+                        <div class="back-content">
+                            <h3>Detalles del Producto</h3>
+                            <p class="description">Collar con baño de oro de 18 quilates. Diseño minimalista y antialérgico, perfecto para cualquier ocasión especial.</p>
+                            <p class="sizes">Longitud: 45 cm</p>
+                            <button class="btn-buy">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="motivation">"La moda no es algo que solo existe en los vestidos. La moda está en el cielo, en las calles, tiene que ver con las ideas, la forma en que vivimos y lo que está sucediendo."</p>
+            <p class="brand-text">SANZA STORE © 2026 | Hecho con amor para empoderar tu autenticidad.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/573181553155?text=Hola!%20Me%20interesa%20conocer%20más%20sobre%20tus%20prendas%20y%20accesorios%20en%20Sanza%20Store." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Escríbenos</span>
+    </a>
+
 </body>
 </html>
